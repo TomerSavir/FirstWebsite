@@ -1,0 +1,276 @@
+
+ .wrapper {
+    
+
+    margin-bottom: -50px;
+  }
+  body{
+    background-image: url('https://images.pexels.com/photos/247676/pexels-photo-247676.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    backdrop-filter: blur(2px);
+    
+  }
+  h1{ 
+    font-size: 70px;
+    color: #9c9c9a;
+    font-family:'Courier New', Courier, monospace;
+    position: relative;
+    top:120px;
+    
+    
+  } 
+  li{ 
+      font-family:'Courier New', Courier, monospace;
+      font-size: 25px;
+      color: #f7f7ec;
+      margin-bottom: 40px;
+      position: relative;
+      top:100px;
+  }
+  ul{
+    list-style-type:none;
+  }
+  #PassportImage{
+  position: relative;
+  left:700px;
+  bottom:400px;
+  max-width: 300px;
+  border-radius: 100px;
+  }
+  .links{ color: inherit;font-style: inherit;text-decoration: none;}
+  
+  #Skills{
+    position: relative;
+    top:-200px;
+  } 
+  #education{
+    position: relative;
+    top:-300px;
+  } 
+  #Recom{
+    position: relative;
+    top:-100px;
+  
+  }
+  
+  
+  /* Style the header with a grey background and some padding */
+   .header {
+    overflow:visible;
+    padding: 20px 10px;
+    position: sticky;
+    top:0;
+    
+  }
+  
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: rgb(248, 245, 245);
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    display: block;
+    padding: 14px;
+  }
+  .content {
+    padding: 16px;
+  }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .sticky + .content {
+    padding-top: 60px;
+  }
+  
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  
+  /* Change the background color on mouse-over */
+  .header a:hover {
+   
+    color: black;
+  }
+  
+  /* Style the active/current link*/
+  .header a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  /* Float the link section to the right */
+  .header-right {
+    float: right;
+  }
+  
+  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+  @media screen and (max-width: 400px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    } 
+  }
+  
+  span {
+    display: inline-block;
+    position: relative;
+    top:100px;
+    width: 520px;
+    height: 650px;
+    margin-left: 80px;
+    
+  }
+  
+  h3{
+    color:rgb(252, 248, 248);
+    position: relative;
+    left:120px;
+    font-family:'Courier New', Courier, monospace;
+      font-size: 25px;
+      color: #f7f7ec; 
+    
+  }
+  h4{
+    position: relative;
+    left:40px;
+    font-family:'Courier New', Courier, monospace;
+      font-size: 17px;
+      color: #f7f7ec; 
+  }
+  h5{
+    position: relative;
+    left:180px;
+    font-family:'Courier New', Courier, monospace;
+      font-size: 15px;
+      color: #f7f7ec; 
+   
+  }
+  #MapsFrames1{
+      width: 300px;
+      height: 300px;
+      position: relative;
+      left:100px;
+      border: 0;
+      
+  }
+  #MapsFrames2{
+      width: 300px;
+      height: 300px;
+      border: 0;
+      position: relative;
+      left:100px;
+  }
+  img.CompanyLogo{
+      width:100px;
+      height: 100px;
+      border-top-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      border-top-right-radius: 10px;
+  }
+  #WorkExp{
+      position: relative;
+      top:-150px;
+      
+      
+  }
+  table{
+    position: relative;
+    top:100px;
+    border: 1px solid rgb(252, 250, 250);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 400px;
+    margin-left: 100px;  
+  }
+  tr{
+    border-bottom: solid coral 2px;
+  }
+  
+  th{
+    padding: 5px;
+    border-bottom: none;
+    text-align: left;
+    font-family:'Courier New', Courier, monospace;
+      font-size: 15px;
+     color: dodgerblue;
+     text-decoration: double;
+     
+  }
+  td {
+    padding: 5px;
+    border-bottom: none;
+    
+    text-align: left;
+    font-family:'Courier New', Courier, monospace;
+      font-size: 15px;
+      color: #f7f7ec;   
+  }
+  .Logos{
+    position: relative;
+    left:100px;
+    width:15px;
+    height:15px;
+  }
+  .RecImage{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left:100px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+  }
+  .RecSpan h4{
+    position: relative;
+    left: 120px;
+  }
+  .RecSpan h5{
+    position: relative;
+    left: 120px;
+  }
+  .footer{
+      position: sticky;
+      width: 100%;
+      bottom: 0;
+      height: 50px;
+  }
+  #Copyright{
+    position: sticky;
+    bottom: 0;
+    right:0;
+    
+    font-family:'Courier New', Courier, monospace;
+      color: #f7f7ec;
+      margin-bottom: 0;
+  }
+  #LinktoSocialnetwork{
+    position: sticky;
+    bottom: 0;
+    left:0;
+    
+    margin-bottom: 0;
+  }
+  .LogosFooter{
+    position: sticky;
+    bottom: 0;
+    right:0;
+    width:15px;
+    height:15px;
+  }
+  
