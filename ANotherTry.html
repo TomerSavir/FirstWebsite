@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+
+@media only screen and (max-width: 400px ) and (min-width: 0px) {
+    body{
+    background-color: seashell;
+
+    }
+span{
+    background-color:teal;
+    border: 250px solid yellow;
+    padding: 250px;
+    width: fit-content;
+    margin: 250px;
+}
+span:hover{
+    background-color:rgb(216, 24, 142);
+}
+#min{
+    visibility: visible;
+}
+#med{
+    visibility: hidden;
+}
+#max{
+    visibility: hidden;
+}
+}
+@media only screen and (max-width: 650px ) and (min-width: 401px) {
+    body{
+    background-color: seashell;
+
+    }
+span{
+    background-color:teal;
+    border: 250px solid rgb(126, 218, 224);
+    padding: 250px;
+    width: fit-content;
+    margin: 250px;
+}
+span:hover{
+    background-color:rgb(128, 0, 0);
+}
+#min{
+    visibility: hidden;
+}
+#med{
+    visibility: visible;
+}
+#max{
+    visibility: hidden;
+}
+}
+
+
+@media only screen and (min-width: 650px) {
+body{
+background-color: seashell;
+
+    }
+span{
+    background-color:teal;
+    border: 250px solid purple;
+    padding: 250px;
+    width: fit-content;
+    margin: 250px;  
+}
+
+span:hover{
+    background-color:green;
+}
+#min{
+    visibility: hidden;
+}
+#med{
+    visibility: hidden;
+}
+#max{
+    position: relative;
+    left:250px;
+    top:320px;
+    visibility: visible;
+}
+}
+    </style>
+</head>
+<body>
+ <span class = "empty"> abc </span>
+<h1 id="min">min</h1>
+<h1 id="med">med</h2>
+<h1 id="max">max</h3>
+</body>
+</html>
+
