@@ -1,54 +1,49 @@
 
- .wrapper {
-    
-
-    margin-bottom: -50px;
-  }
+ 
   body{
     background-image: url('https://images.pexels.com/photos/247676/pexels-photo-247676.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    backdrop-filter: blur(2px);
-    
   }
+  
   h1{ 
-    font-size: 70px;
+    font-size: 120px;
     color: #9c9c9a;
     font-family:'Courier New', Courier, monospace;
-    /* position: relative;
-    top:120px; */
-    
-    
   } 
-  /* li{ 
+ li.PersonainfLi{  
       font-family:'Courier New', Courier, monospace;
       font-size: 25px;
       color: #f7f7ec;
       margin-bottom: 40px;
-      position: relative;
-      top:100px;
-  } */
+     
+  }
+  li.SkillsLi{
+    font-family:'Courier New', Courier, monospace;
+      font-size: 25px;
+      color: #f7f7ec;
+      
+  }
+  progress{
+    width: 40%;
+  }
   ul{
     list-style-type:none;
+    display: inline;
   }
   #PassportImage{
-  position: relative;
-  left:700px;
-  bottom:400px;
-  max-width: 300px;
+    position: relative;
+    left:70%;
+    top:-35%;
+  max-width: 250px;
+  width: auto;
   border-radius: 100px;
+  height: auto;
   }
   .links{ color: inherit;font-style: inherit;text-decoration: none;}
   
-  #Skills{
-    position: relative;
-    top:-200px;
-  } 
-  #education{
-    position: relative;
-    top:-300px;
-  } 
+  
   #Recom{
     position: relative;
     top:-100px;
@@ -125,54 +120,41 @@
     } 
   }
   
-  span {
-    display: inline-block;
-    position: relative;
-    top:100px;
-    width: 520px;
-    height: 650px;
-    margin-left: 80px;
-    
-  }
+  
   
   h3{
     color:rgb(252, 248, 248);
-    position: relative;
-    left:120px;
+   
     font-family:'Courier New', Courier, monospace;
       font-size: 25px;
       color: #f7f7ec; 
     
   }
   h4{
-    position: relative;
-    left:40px;
+    
     font-family:'Courier New', Courier, monospace;
-      font-size: 17px;
+      font-size: 10px;
       color: #f7f7ec; 
   }
   h5{
-    position: relative;
-    left:180px;
+    
     font-family:'Courier New', Courier, monospace;
-      font-size: 15px;
+      font-size: 7px;
       color: #f7f7ec; 
    
   }
   #MapsFrames1{
       width: 300px;
       height: 300px;
-      position: relative;
-      left:100px;
-      border: 0;
+      
+      
       
   }
   #MapsFrames2{
       width: 300px;
       height: 300px;
-      border: 0;
-      position: relative;
-      left:100px;
+    
+      
   }
   img.CompanyLogo{
       width:100px;
@@ -188,8 +170,7 @@
       
   }
   table{
-    position: relative;
-    top:100px;
+    
     border: 1px solid rgb(252, 250, 250);
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -229,8 +210,6 @@
   .RecImage{
     width: 200px;
     height: 200px;
-    position: relative;
-    left:100px;
     border-top-left-radius: 100px;
     border-bottom-right-radius: 100px;
     border-top-right-radius: 100px;
@@ -275,5 +254,11 @@
   }
   
   .PagePadding{
-    padding-top: 200px;
+    padding-top: 10%;
+  }
+  .SectionPadding{
+    padding-top: 10%;
+  }
+  .RecPicPadd{
+    padding-top: 5%;
   }
