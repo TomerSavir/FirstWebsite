@@ -3,95 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <style>
-
-@media only screen and (max-width: 400px ) and (min-width: 0px) {
-    body{
-    background-color: seashell;
-
-    }
-span{
-    background-color:teal;
-    border: 250px solid yellow;
-    padding: 250px;
-    width: fit-content;
-    margin: 250px;
-}
-span:hover{
-    background-color:rgb(216, 24, 142);
-}
-#min{
-    visibility: visible;
-}
-#med{
-    visibility: hidden;
-}
-#max{
-    visibility: hidden;
-}
-}
-@media only screen and (max-width: 650px ) and (min-width: 401px) {
-    body{
-    background-color: seashell;
-
-    }
-span{
-    background-color:teal;
-    border: 250px solid rgb(126, 218, 224);
-    padding: 250px;
-    width: fit-content;
-    margin: 250px;
-}
-span:hover{
-    background-color:rgb(128, 0, 0);
-}
-#min{
-    visibility: hidden;
-}
-#med{
-    visibility: visible;
-}
-#max{
-    visibility: hidden;
-}
-}
-
-
-@media only screen and (min-width: 650px) {
 body{
-background-color: seashell;
-
-    }
-span{
-    background-color:teal;
-    border: 250px solid purple;
-    padding: 250px;
-    width: fit-content;
-    margin: 250px;  
+    background-color:white;
 }
 
-span:hover{
-    background-color:green;
+.empty {
+  padding: 250px 250px;
+  background-clip:  content-box, padding-box;
+  background-image: linear-gradient(to bottom, white 0%, white 100%), linear-gradient(to bottom, purple 0%, purple 100%); 
+  border:solid 10px black;
+  position: ;
 }
-#min{
-    visibility: hidden;
+
+
+@media screen and (min-width: 1px) and (max-width: 400px) {
+    .empty {
+  padding: 250px 250px;
+  background-clip:  content-box, padding-box;
+  background-image: linear-gradient(to bottom, white 0%, white 100%), linear-gradient(to bottom, yellow 0%, yellow 100%); 
+  border:solid 10px black;
+   }
+
+   span:hover:before{
+content: "Min";
+position: relative;
+top:100px;
+
+background-color: rgb(212, 0, 255);} 
+
 }
-#med{
-    visibility: hidden;
+
+@media screen and (min-width: 401px) and (max-width: 650px) {
+    .empty { 
+  padding: 250px 250px;
+  background-clip:  content-box, padding-box;
+  background-image: linear-gradient(to bottom, white 0%, white 100%), linear-gradient(to bottom, rgb(34, 184, 184) 0%, rgb(34, 184, 184) 100%); 
+  border:solid 10px black;
+   }
+   span:hover:before{
+content: "Med";
+position: relative;
+top:100px;
+
+background-color: rgb(21, 226, 106);
 }
-#max{
-    position: relative;
-    left:250px;
-    top:320px;
-    visibility: visible;
+}
+
+@media screen and (min-width: 650px) {
+    .empty { padding: 250px 250px;
+  background-clip:  content-box, padding-box;
+  background-image: linear-gradient(to bottom, white 0%, white 100%), linear-gradient(to bottom, purple 0%, purple 100%); 
+  border:solid 10px black; }
+
+ 
+span:hover:before{
+content: "Max";
+position: relative;
+top:100px;
+background-color: blue;
 }
 }
+
+
+
+
+
+
+
+
+
+
+
     </style>
 </head>
 <body>
  <span class = "empty"> abc </span>
-<h1 id="min">min</h1>
-<h1 id="med">med</h2>
-<h1 id="max">max</h3>
+
 </body>
 </html>
 
