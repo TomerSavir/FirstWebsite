@@ -4,7 +4,12 @@ body{
     background-attachment: fixed;
     background-size: cover;
   }
-  
+  label{
+    font-stretch: normal;
+    font-size: medium;
+    color: black;
+    font-style:bold;
+  }
   h1{ 
     font-size: 120px;
     color: #9c9c9a;
@@ -38,6 +43,7 @@ body{
   width: auto;
   border-radius: 100px;
   height: auto;
+  
   }
   .links{ color: inherit;font-style: inherit;text-decoration: none;}
   
@@ -222,6 +228,7 @@ body{
     left: 120px;
   }
   .footer{
+    
       position: sticky;
       width: 100%;
       bottom: 0;
@@ -260,3 +267,178 @@ body{
   .RecPicPadd{
     padding-top: 5%;
   }
+
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  
+  /* Modal Content (image) */
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 500px;
+  }
+  
+  /* Caption of Modal Image */
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Add Animation */
+  .modal-content, #caption {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }}
+ 
+    
+    
+    
+    
+    
+    
+
+
+
+
+    /* The popup form - hidden by default */
+.form-popup {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  
+}
+
+/* Add styles to the form container */
+.form-container {
+  margin: auto;
+  display: block;
+  width: 80%;
+  height: 80%;
+  max-width: 700px;
+  max-height: 700px;
+  background-color: white;
+}
+
+
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 16px;
+  border: none;
+  cursor: pointer;
+  margin-top: 12px;
+  
+  width: 30%;
+  padding: 12px;
+  resize: vertical;
+  position: relative;
+  left:30%;
+  
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+input[type=text],textarea,input[type=email],input[type=tel] {
+width:50%;
+margin-bottom: 7%;
+padding: 0.5%;
+
+
+
+
+
+}
+#ButtontoScrollup{
+  position:fixed;
+  right:30px;
+  bottom:10px;
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  background-color:white;
+  box-shadow: 0 0 10px black;
+  color:black;
+  outline:none;
+  cursor:pointer;
+  border:none;
+}
+#ButtontoScrollup:active{
+background-color: dodgerblue;
+
+}
+#count{
+  font: medium;
+  color:black;
+}
