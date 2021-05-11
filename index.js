@@ -9,7 +9,7 @@
             document.getElementById("PassportImage").style.display="inline";
             
           }
-        
+    
           function Limit(id){
             var i=id.value.length;
             var charactersLeft = 200 - i;
